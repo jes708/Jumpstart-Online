@@ -6,10 +6,6 @@ function palindrome(str){
   		reversedStr += lowerStr[length];  
   }
 
-  if(reversedStr === lowerStr){
-    return true;
-  }
-
-  return false;
+  return reversedStr === lowerStr;
 }
 
